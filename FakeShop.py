@@ -3,7 +3,7 @@ from random import randint
 # Constants
 fruitList = ["Oranges", "Apples", "Banana", "Grapes", "Strawberry"]
 cart = []
-menuInput = [0, 1, 2, 3, 4]
+menuInput = [0, 1, 2]
 fakecard = {
     "cardnumber": "123-233-648-323",
     "expdate": "06/27",
