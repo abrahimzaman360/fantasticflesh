@@ -1,6 +1,6 @@
 from random import randint
 
-
+# Constants
 fruitList = ["Oranges", "Apples", "Banana", "Grapes", "Strawberry"]
 cart = []
 menuInput = [0, 1, 2, 3, 4]
@@ -9,11 +9,8 @@ fakecard = {
     "expdate": "06/27",
     "cvc": "107"
 }
-itemBought = []
 
 # Shop Class:
-
-
 class Shop:
     def __init__(self, flist):
         self.flist = flist
