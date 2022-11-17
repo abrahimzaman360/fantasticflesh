@@ -92,7 +92,7 @@ class Shop:
                                 file.write("\nCard CVC   :\t{}".format(
                                     fakecard.get('cvc')))
                                 file.write(
-                                    "\nJunior Programmer:\tIbrahim Zaman!")
+                                    "\n\nJunior Programmer:\tIbrahim Zaman!")
                             file.close()
                             print("Check Invoice{}.txt File in Directory!".format(randp))
 
